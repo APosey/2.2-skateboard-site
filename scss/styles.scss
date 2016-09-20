@@ -1,0 +1,40 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*Colors* -- standardized colors*/
+$
+
+.container{
+  background-image: white;/*image(bg.jpg);*/
+}
+
+section.nav-top{
+  display: inline-block;
+}
+
+section.nav-top{
+  h6{
+    display: inline;
+  }
+
+ul li {
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+div.social-buttons:nth-child(1){
+background-color: blue;
+}
+
+div.social-buttons:nth-child(2){
+  background-color: yellow;
+}
+
+div.social-buttons:nth-child(3){
+  background-color: lightblue;
+}
+
+div.social-buttons:nth-child(4){
+  background-color: red;
+}
+}
