@@ -1,40 +1,55 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /*Colors* -- standardized colors*/
-$
+
 
 .container{
-  background-image: white;/*image(bg.jpg);*/
 }
 
-section.nav-top{
+h6{
   display: inline-block;
+  float: right;
 }
 
-section.nav-top{
-  h6{
-    display: inline;
-  }
+body{
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-top{
+  margin-top: 20px;
+  border: solid blue;
+}
+
+.nav-top{
+ul{
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 ul li {
   display: inline-block;
-  float: right;
   list-style: none;
+  background-color: white;/*To Be Removed*/
 }
 
-div.social-buttons:nth-child(1){
-background-color: blue;
-}
-
-div.social-buttons:nth-child(2){
-  background-color: yellow;
-}
-
-div.social-buttons:nth-child(3){
-  background-color: lightblue;
-}
-
-div.social-buttons:nth-child(4){
+div.buttons{
   background-color: red;
+  max-width: 100%;
 }
+
+button.red{
+padding-right: 10px;
+}
+img{
+  height: 75%;
+  width: 75%;
+}
+
+.articles section{
+max-width: 25%;
+float: left;
+}
+
 }
