@@ -2,13 +2,15 @@
 
 /*Colors* -- standardized colors*/
 
-
-.container{
+body{
+  margin: 0;
+  padding: 0;
 }
 
 h6{
   display: inline-block;
-  float: right;
+  float: left;
+  margin-left: 50%;
 }
 
 body{
@@ -18,38 +20,97 @@ body{
 }
 
 .nav-top{
-  margin-top: 20px;
-  border: solid blue;
+  margin-top: 0px;
 }
 
 .nav-top{
-ul{
-margin-top: 10px;
-margin-bottom: 10px;
+  ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+
+  ul li {
+    display: inline-block;
+    list-style: none;
+    background-color: white;/*To Be Removed*/
+  }
+
+  .articles section{
+    max-width: 25%;
+    float: left;
+  }
 }
 
-ul li {
-  display: inline-block;
-  list-style: none;
-  background-color: white;/*To Be Removed*/
-}
-
-div.buttons{
-  background-color: red;
-  max-width: 100%;
-}
-
-button.red{
-padding-right: 10px;
-}
-img{
-  height: 75%;
+.col-md-1 img{
   width: 75%;
+  height: 75%;
 }
 
-.articles section{
-max-width: 25%;
-float: left;
+
+.row, .red-buttons, .col-sm-3{
+  box-shadow: grey;
+  color: grey;
+  margin-bottom: 4px;
 }
 
+.col-sm-3{
+  color: white;
+  background: red;
+}
+
+.row .col-xs-3{
+  color: black;
+  background-color: white;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.text-columns{
+  margin-right: 5px;
+}
+
+.row .paragraphs{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+div i{
+  display: inline-block;
+}
+
+.carousel-indicator{
+display: inline-block;
+color: white;
+margin-left: 50%;
+}
+
+div.col-md-1{
+  border: solid white;
+  border-width: thick;
+  margin-bottom: 5px;
+}
+
+button.col-sm-3{
+  width:20%;
+}
+
+img.img-responsive{
+  display: inline-block;
+}
+
+div.images{
+  background-color: white;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+div.row .img-responsive{
+  border: solid white;
+  border-width: medium;
+}
+
+.top-image-logo{
+  background-image: url('../images/top-image.png');
+  height: 450px;
 }
