@@ -5848,7 +5848,9 @@ body {
 
 .col-sm-3 {
   color: white;
-  background: red; }
+  background-color: none;
+  padding-left: 2px;
+  padding-right: 2px; }
 
 .row .col-xs-3 {
   color: black;
@@ -5893,13 +5895,42 @@ div.row .img-responsive {
 
 .top-image-logo {
   background-image: url("../images/top-image.png");
-  height: 450px;
-  border: solid white; }
+  background-position: -400px -161px;
+  height: 330px;
+  border: solid white;
+  border-width: 13px;
+  position: relative; }
+
+.top-image-logo .img-responsive .banner {
+  display: inline-block; }
 
 .text {
   background-color: white; }
 
 .box-right {
-  height: 400px; }
+  height: 430px; }
+
+.red-buttons {
+  text-align: center; }
+
+.button-space {
+  margin-left: 2px; }
+
+.col-sm-6 {
+  padding-left: 0; }
+
+.col-sm-4 {
+  padding-left: 0; }
+
+.col-sm-12 {
+  margin-top: 15px;
+  width: 530px;
+  padding-right: 25px;
+  padding-left: 0; }
+
+.inner-button {
+  background-color: red;
+  border: solid red;
+  border-width: thick; }
 
 /*# sourceMappingURL=styles.css.map */
